@@ -1,0 +1,101 @@
+.app{
+  padding: 20px auto;
+  text-align: center;
+}
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(41, 41, 41);
+  width: 60vw;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 300px;
+
+}
+.card{
+  border-radius: 8px;
+  padding: 16px;
+  height: 370px;
+  width: calc(33.33% - 16px);
+  margin-left: 5px;
+  margin-top: 30px;
+  
+  text-align: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 2px gray;
+  
+}
+.card h3{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  color:black(165, 23, 23);
+  -webkit-box-orient: vertical;
+  
+}
+.card p{
+  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    color: black;
+    -webkit-box-orient: vertical;
+  
+}
+.card button{
+  background-color: white;
+  border: none;
+  margin-left: 200px;
+}
+.card img
+{
+  display: block;
+  margin:0 auto 16px auto;
+  width: 200px;
+  margin-top: -5px;
+  max-width: 100%;
+  max-height: 100px;
+  border-radius: 8px;
+}
+.pages button{
+ border-radius: 50%;
+ background-color: gray;
+ color: white;
+ height: 25px;
+ width: 25px;
+ margin: 20px 10px 15px 5px;
+
+ border: none;
+}
+.pages button:hover{
+  background-color: white;
+  color: black;
+}
+.pages{
+  background-color: #EAF1F6;
+}
+.pages button .active{
+  font-weight: bold;
+
+}
+.pages button .icon{
+  
+  border: none;
+  margin-top: 2px;
+}
+.loading
+{
+  color:white;
+ border-radius: 50rem;
+ background-color: black;
+  text-align: center;
+  margin-top: 25%;
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium';
+}
